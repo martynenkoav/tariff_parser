@@ -7,7 +7,7 @@ import java.util.HashMap;
 */
 
 
-public class Tariff_reports {
+public class TariffReports {
     public static void main(String[] args) throws IOException, ParseException {
         HashMap<String, UserCDR> map = Parser.parse("src/main/resources/cdr.txt");
         map.forEach((k, v) -> v.count_tariff());
