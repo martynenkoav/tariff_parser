@@ -2,6 +2,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/*
+    в данном классе задаем формат вывода отчета
+ */
+
 public class Report {
 
     public static void makeReport(String phone_number, UserCDR userCDR){

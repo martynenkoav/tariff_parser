@@ -5,6 +5,10 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
+/*
+    в этой классе собраны все методы, которые изменяют формат данных, либо для даты, либо для времени, либо для цены
+* */
+
 public class FormatData {
 
     public static Date convert(String dateInString) throws ParseException {

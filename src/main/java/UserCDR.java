@@ -2,6 +2,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+/*
+       класс, в котором содержится список звонков пользователя, тип тарифа, итоговая стоимость и итоговое количество минут
+* */
+
 public class UserCDR {
     private String _tariffType;
     private ArrayList<CDR> _callList;

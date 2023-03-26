@@ -1,6 +1,10 @@
 import java.util.Date;
 import java.util.Objects;
 
+/*
+    клас, который необзодим для хранения информации о звонке
+* */
+
 public class CDR {
     private String _call_type;
     private Date _beginning;

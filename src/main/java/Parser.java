@@ -2,6 +2,10 @@ import java.io.*;
 import java.text.ParseException;
 import java.util.HashMap;
 
+/*
+    Класс необходимый для парсинга файла с отчетами по звонкам
+*/
+
 public class Parser {
 
     public static HashMap<String, UserCDR> parse(String filePath) throws IOException, ParseException {
